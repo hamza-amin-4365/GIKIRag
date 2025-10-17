@@ -1,0 +1,37 @@
+### Highlights
+[![SDGIKI Newsletter | Volume 03](https://giki.edu.pk/wp-content/uploads/2024/08/SDGiki-Vol-03-700x430.webp)](https://giki.edu.pk/2024/08/30/sdgiki-newsletter-volume-03/)
+[August 30, 2024](https://giki.edu.pk/2024/08/30/)
+### [SDGIKI Newsletter | Volume 03](https://giki.edu.pk/2024/08/30/sdgiki-newsletter-volume-03/)
+[Download](https://giki.edu.pk/wp-content/uploads/2024/08/SDGiki-Vol-03_compressed.pdf)
+[![SDGIKI Newsletter Volume 02 Thumbnail](https://giki.edu.pk/wp-content/uploads/2023/09/SDGIKI_Thumb_page-0001-700x430.jpg)](https://giki.edu.pk/2023/09/19/sdgiki-vol-02/)
+[September 19, 2023](https://giki.edu.pk/2023/09/19/)
+### [SDGIKI Newsletter | Volume 02](https://giki.edu.pk/2023/09/19/sdgiki-vol-02/)
+[Download](https://giki.edu.pk/sdg-14-life-below-water/)
+[![](https://giki.edu.pk/wp-content/uploads/2023/07/11.jpg)](https://giki.edu.pk/2023/07/31/les-ennovate-intra-gik-event-december-7-2022/)
+[July 31, 2023](https://giki.edu.pk/2023/07/31/)
+### [LES ENNOVATE Intra GIK Event December 7, 2022](https://giki.edu.pk/2023/07/31/les-ennovate-intra-gik-event-december-7-2022/)
+[![](https://giki.edu.pk/wp-content/uploads/2023/07/Water-Conservation-624x430.jpg)](https://giki.edu.pk/2023/07/31/save-water-save-life-a-public-service-message-by-student-affairs-department-26-october-2022/)
+[July 31, 2023](https://giki.edu.pk/2023/07/31/)
+### [Save Water Save Life – A Public Service Message by Student Affairs Department 26 October 2022](https://giki.edu.pk/2023/07/31/save-water-save-life-a-public-service-message-by-student-affairs-department-26-october-2022/)
+Text box item sample content
+### SDGIKI News
+### SDGIKI
+  * [SDG 1: No Poverty](https://giki.edu.pk/sdgiki/sdg-1-no-poverty/)
+  * [SDG 2: Zero Hunger](https://giki.edu.pk/sdgiki/sdg-2-zero-hunger/)
+  * [SDG 3: Good Health and Well-Being](https://giki.edu.pk/sdg-3-good-health-and-well-being/)
+  * [SDG 4: Quality Education](https://giki.edu.pk/sdg-4-quality-education/)
+  * [SDG 5: Gender Equality](https://giki.edu.pk/sdg-5-gender-equality/)
+  * [SDG 6: Clean Water and Sanitation](https://giki.edu.pk/sdg-6-clean-water-and-sanitation/)
+  * [SDG 7: Affordable and Clean Energy](https://giki.edu.pk/sdg-7-affordable-and-clean-energy/)
+  * [SDG 8: Decent Work and Economic Growth](https://giki.edu.pk/sdg-8-decent-work-and-economic-growth/)
+  * [SDG 9: Industry Innovation and Infrastructure](https://giki.edu.pk/sdg-9-industry-innovation-and-infrastructure/)
+  * [SDG 10: Reduced Inequalities](https://giki.edu.pk/sdg-10-reduced-inequalities/)
+  * [SDG 11: Sustainable Cities and Communities](https://giki.edu.pk/sdg-11-sustainable-cities-and-communities/)
+  * [SDG 12: Responsible Consumption and Production](https://giki.edu.pk/sdg-12-responsible-consumption-and-production/)
+  * [SDG 13: Climate Action](https://giki.edu.pk/sdg-13-climate-action/)
+  * [SDG 14: Life Below Water](https://giki.edu.pk/sdg-14-life-below-water/)
+  * [SDG 15: Life on Land](https://giki.edu.pk/sdg-15-life-on-land/)
+  * [SDG 16: Peace, Justice, and Strong Institution](https://giki.edu.pk/sdg-16-peace-justice-and-strong-institution/)
+  * [SDG 17: Partnership for Goals](https://giki.edu.pk/sdg-17-partnership-for-goals/)
+
+

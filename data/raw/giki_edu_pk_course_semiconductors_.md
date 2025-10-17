@@ -1,0 +1,11 @@
+**Semiconductors** | **Hours: 3 0 3**  
+---|---  
+Semiconducting materials, mobility and electrical conductivity, energy bands, thermal properties, carrier modeling, carrier action, PN junctions and diodes, bipolar transistors, field effect transistors, power devices, integrated circuits and devices, assessment of materials for PV solar cells applications.
+**Pre-requisites: None** | **Co-requisites: None**  
+---|---  
+Hours: XYZ where X = Lecture, Y = Lab, Z = Credit  
+All hours are per week.  
+3 Lab hours constitute 1 credit hour  
+1 credit hour implies 1 lecture of 50mins per academic week. 16 weeks in total.  
+Pre-Requisite courses are courses required to be completed before this course may be taken  
+Co-Requisite courses are courses required to be taken along with this course

@@ -1,0 +1,11 @@
+### FMSE News
+[Read More](https://giki.edu.pk/news/)
+[![GIKI Career Fair 2024](https://giki.edu.pk/wp-content/uploads/2024/01/Career-Fair-Programs-700x430.jpg)](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[January 16, 2024](https://giki.edu.pk/2024/01/16/)
+### [GIKI Career Fair 2024](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[![](https://giki.edu.pk/fmse-news/)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[July 28, 2023](https://giki.edu.pk/2023/07/28/)
+### [GIKI Open Day (August 01 – 02, 2023)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[![mtme 2023 conference giki materials mechanical](https://giki.edu.pk/fmse-news/)](https://giki.edu.pk/2023/04/16/1st-international-conference-on-modern-technologies-in-mechanical-material-engineering/)
+[April 16, 2023](https://giki.edu.pk/2023/04/16/)
+### [1st International Conference on Modern Technologies in Mechanical & Material Engineering](https://giki.edu.pk/2023/04/16/1st-international-conference-on-modern-technologies-in-mechanical-material-engineering/)

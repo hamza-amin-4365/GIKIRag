@@ -1,0 +1,25 @@
+### Among the numerous accomplished FCSE alumni, here are a few who have significantly excelled in their respective fields”
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/2.png)](https://giki.edu.pk/wp-content/uploads/2023/12/2.png)
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/10.png)](https://giki.edu.pk/wp-content/uploads/2023/12/10.png)
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/4.png)](https://giki.edu.pk/wp-content/uploads/2023/12/4.png)
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/13.png)](https://giki.edu.pk/wp-content/uploads/2023/12/13.png)
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/6.png)](https://giki.edu.pk/wp-content/uploads/2023/12/6.png)
+[![](https://giki.edu.pk/wp-content/uploads/2023/12/9.png)](https://giki.edu.pk/wp-content/uploads/2023/12/9.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/11.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/5.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/8.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/15.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/7.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/1-13.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/12.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/3-1.png)
+[![](https://giki.edu.pk/fcse/meet-our-graduates/)](https://giki.edu.pk/wp-content/uploads/2023/12/14.png)
+###  Computer Sciences and Engineering
+  * [Undergraduate](https://giki.edu.pk/fcse/fcs-undergraduate/)
+  * [Graduate Programs FCSE](https://giki.edu.pk/fcse/fcs-graduate/)
+  * [Faculty Profile](https://giki.edu.pk/fcse/faculty-profiles/)
+  * [Labs and Facilities (FCSE)](https://giki.edu.pk/fcse/fcs-labs-and-facilities/)
+  * [Meet Our Graduates](https://giki.edu.pk/fcse/meet-our-graduates/)
+  * [Services by Faculty of Computer Engineering](https://giki.edu.pk/services-by-faculty-of-computer-engineering/)
+
+

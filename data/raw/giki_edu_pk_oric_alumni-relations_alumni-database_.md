@@ -1,0 +1,2 @@
+##### Alumni – Update Your Information
+The most important thing for us is to collect and keep your data updated in the best possible way. Please help us maintain your relationship with GIK Institute by sharing and keeping your details up to date. We would like to know what you’ve been involved in. We would also like to gather information about our graduates so we can make our communication even better and stronger, inform you about specific events and provide you with the news that is of more interest to you.

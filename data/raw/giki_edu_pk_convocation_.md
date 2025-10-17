@@ -1,0 +1,7 @@
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0281.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0281.jpg)
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0279.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0279.jpg)
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0265.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0265.jpg)
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0257.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0257.jpg)
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0142.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0142.jpg)
+[![](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0133.jpg)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0133.jpg)
+[![](https://giki.edu.pk/convocation/)](https://giki.edu.pk/wp-content/uploads/2021/11/DSC_0005.jpg)

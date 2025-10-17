@@ -1,0 +1,1 @@
+[![](https://giki.edu.pk/wp-content/uploads/2021/12/Green-Photo-centric-University-Recruitment-Poster.png)](https://giki.edu.pk/wp-content/uploads/2021/12/Green-Photo-centric-University-Recruitment-Poster.png)

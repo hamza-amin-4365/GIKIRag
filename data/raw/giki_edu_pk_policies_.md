@@ -1,0 +1,32 @@
+### Policies
+[Sustainability Education Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Sustainability-Education-Policy-for-Ghulam-Ishaq-Khan-Institute-of-Engineering-Sciences-and-Technology-4.pdf)
+[Sustainability Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/GIK-Institute-Sustainability-Policy.pdf)
+[Transportation Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Transportation-Policy-for-Ghulam-Ishaq-Khan-Institute-of-Engineering-Sciences-and-Technology-1.pdf)
+[Sustainable Procurement Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Sustainable-Procurement-Policy-for-1.pdf)
+[Sustainable Investment Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/GIK-Sustainable-Investment-Policy-1-3.pdf)
+[Equality, Diversity & Inclusion Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Equality-Diversity-Inclusion-Policy-of-GIK-Institute.pdf)
+[Energy Management Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Energy-Management-Policy-for-Ghulam-Ishaq-Khan.pdf)
+[Waste Management Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Waste-Management-Policy-for-Ghulam-Ishaq-Khan-Institute-of-Engineering-Sciences-and-Technology.pdf)
+[Water Management Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Water-Management-Policy-GIK.pdf)
+[Anti bribery and Corruption Policy Statement](https://giki.edu.pk/wp-content/uploads/2023/09/Anti-bribery-and-Corruption-Policy.pdf)
+### SDGIKI News
+### SDGIKI
+  * [SDG 1: No Poverty](https://giki.edu.pk/sdgiki/sdg-1-no-poverty/)
+  * [SDG 2: Zero Hunger](https://giki.edu.pk/sdgiki/sdg-2-zero-hunger/)
+  * [SDG 3: Good Health and Well-Being](https://giki.edu.pk/sdg-3-good-health-and-well-being/)
+  * [SDG 4: Quality Education](https://giki.edu.pk/sdg-4-quality-education/)
+  * [SDG 5: Gender Equality](https://giki.edu.pk/sdg-5-gender-equality/)
+  * [SDG 6: Clean Water and Sanitation](https://giki.edu.pk/sdg-6-clean-water-and-sanitation/)
+  * [SDG 7: Affordable and Clean Energy](https://giki.edu.pk/sdg-7-affordable-and-clean-energy/)
+  * [SDG 8: Decent Work and Economic Growth](https://giki.edu.pk/sdg-8-decent-work-and-economic-growth/)
+  * [SDG 9: Industry Innovation and Infrastructure](https://giki.edu.pk/sdg-9-industry-innovation-and-infrastructure/)
+  * [SDG 10: Reduced Inequalities](https://giki.edu.pk/sdg-10-reduced-inequalities/)
+  * [SDG 11: Sustainable Cities and Communities](https://giki.edu.pk/sdg-11-sustainable-cities-and-communities/)
+  * [SDG 12: Responsible Consumption and Production](https://giki.edu.pk/sdg-12-responsible-consumption-and-production/)
+  * [SDG 13: Climate Action](https://giki.edu.pk/sdg-13-climate-action/)
+  * [SDG 14: Life Below Water](https://giki.edu.pk/sdg-14-life-below-water/)
+  * [SDG 15: Life on Land](https://giki.edu.pk/sdg-15-life-on-land/)
+  * [SDG 16: Peace, Justice, and Strong Institution](https://giki.edu.pk/sdg-16-peace-justice-and-strong-institution/)
+  * [SDG 17: Partnership for Goals](https://giki.edu.pk/sdg-17-partnership-for-goals/)
+
+

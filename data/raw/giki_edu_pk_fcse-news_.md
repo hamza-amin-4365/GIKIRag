@@ -1,0 +1,11 @@
+### FCSE News
+[Read More](https://giki.edu.pk/news/)
+[![GIKI Career Fair 2024](https://giki.edu.pk/wp-content/uploads/2024/01/Career-Fair-Programs-700x430.jpg)](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[January 16, 2024](https://giki.edu.pk/2024/01/16/)
+### [GIKI Career Fair 2024](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[![](https://giki.edu.pk/fcse-news/)](https://giki.edu.pk/2024/01/04/reaccreditation-visit-by-hec-nceac-committee-to-gik-institute-for-bs-in-computer-science-program/)
+[January 4, 2024](https://giki.edu.pk/2024/01/04/)
+### [Reaccreditation Visit by HEC-NCEAC Committee to GIK Institute for BS in Computer Science Program](https://giki.edu.pk/2024/01/04/reaccreditation-visit-by-hec-nceac-committee-to-gik-institute-for-bs-in-computer-science-program/)
+[![](https://giki.edu.pk/fcse-news/)](https://giki.edu.pk/2023/11/30/gik-institute-organized-ai-h2d-2023-pioneering-transformations-in-healthcare-drug-discovery-and-allied-sciences/)
+[November 30, 2023](https://giki.edu.pk/2023/11/30/)
+### [GIK Institute organized AI-H2D 2023: Pioneering Transformations in Healthcare, Drug Discovery, and Allied Sciences](https://giki.edu.pk/2023/11/30/gik-institute-organized-ai-h2d-2023-pioneering-transformations-in-healthcare-drug-discovery-and-allied-sciences/)

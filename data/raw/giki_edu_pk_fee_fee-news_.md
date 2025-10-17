@@ -1,0 +1,11 @@
+### FEE News
+[Read More](https://giki.edu.pk/news/)
+[![GIKI Career Fair 2024](https://giki.edu.pk/wp-content/uploads/2024/01/Career-Fair-Programs-700x430.jpg)](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[January 16, 2024](https://giki.edu.pk/2024/01/16/)
+### [GIKI Career Fair 2024](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[![granted Level-II OBE Accreditation for \(highest\) 4 Years after recent PEC visits, evaluations, & approval from EAB](https://giki.edu.pk/fee/fee-news/)](https://giki.edu.pk/2023/08/21/giki-electrical-engineering-program-granted-level-ii-obe-accreditation-for-highest-4-years-after-recent-pec-visits-evaluations-approval-from-eab/)
+[August 21, 2023](https://giki.edu.pk/2023/08/21/)
+### [GIKI Electrical Engineering Program granted Level-II OBE Accreditation for (highest) 4 Years after recent PEC visits, evaluations, & approval from EAB](https://giki.edu.pk/2023/08/21/giki-electrical-engineering-program-granted-level-ii-obe-accreditation-for-highest-4-years-after-recent-pec-visits-evaluations-approval-from-eab/)
+[![](https://giki.edu.pk/fee/fee-news/)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[July 28, 2023](https://giki.edu.pk/2023/07/28/)
+### [GIKI Open Day (August 01 – 02, 2023)](https://giki.edu.pk/2023/07/28/giki-open-day/)

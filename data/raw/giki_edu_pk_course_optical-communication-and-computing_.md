@@ -1,0 +1,11 @@
+**Optical Communication and Computing** | **Hours: 3 0 3**  
+---|---  
+Analysis and design of optical communication systems. Free-space, fiber-optic and turbulent atmospheric channels; modal representation of fields, Coherent and incoherent sources; modulation methods. Modelling and statistical analysis of photodetectors; thermal and shot noise, Direct and heterodyne detection; analog and digital transmission; signal-to-noise ratios; advanced applications.
+**Pre-requisites: ES376** | **Co-requisites: None**  
+---|---  
+Hours: XYZ where X = Lecture, Y = Lab, Z = Credit  
+All hours are per week.  
+3 Lab hours constitute 1 credit hour  
+1 credit hour implies 1 lecture of 50mins per academic week. 16 weeks in total.  
+Pre-Requisite courses are courses required to be completed before this course may be taken  
+Co-Requisite courses are courses required to be taken along with this course

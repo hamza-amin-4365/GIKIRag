@@ -1,0 +1,11 @@
+### DCE News
+[Read More](https://giki.edu.pk/news/)
+[![GIKI Career Fair 2024](https://giki.edu.pk/wp-content/uploads/2024/01/Career-Fair-Programs-700x430.jpg)](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[January 16, 2024](https://giki.edu.pk/2024/01/16/)
+### [GIKI Career Fair 2024](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[![](https://giki.edu.pk/dce/dce-news/)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[July 28, 2023](https://giki.edu.pk/2023/07/28/)
+### [GIKI Open Day (August 01 – 02, 2023)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[![](https://giki.edu.pk/dce/dce-news/)](https://giki.edu.pk/2022/12/26/giki-chapter-for-up-coming-civil-engineers-to-gain-value-able-first-hand-knowledge-about-their-field/)
+[December 26, 2022](https://giki.edu.pk/2022/12/26/)
+### [GIKI Chapter for up-coming civil engineers to gain value-able first-hand knowledge about their field](https://giki.edu.pk/2022/12/26/giki-chapter-for-up-coming-civil-engineers-to-gain-value-able-first-hand-knowledge-about-their-field/)

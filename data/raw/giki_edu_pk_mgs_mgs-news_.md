@@ -1,0 +1,11 @@
+### MGS News
+[Read More](https://giki.edu.pk/news/)
+[![GIKI Career Fair 2024](https://giki.edu.pk/wp-content/uploads/2024/01/Career-Fair-Programs-700x430.jpg)](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[January 16, 2024](https://giki.edu.pk/2024/01/16/)
+### [GIKI Career Fair 2024](https://giki.edu.pk/2024/01/16/career-fair-2024/)
+[![](https://giki.edu.pk/mgs/mgs-news/)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[July 28, 2023](https://giki.edu.pk/2023/07/28/)
+### [GIKI Open Day (August 01 – 02, 2023)](https://giki.edu.pk/2023/07/28/giki-open-day/)
+[![](https://giki.edu.pk/mgs/mgs-news/)](https://giki.edu.pk/2022/10/21/dr-yousaf-ali-is-listed-among-the-worlds-top-2-of-scientists-and-researchers-in-the-field-of-management-and-economics-listed-in-the-stanford-university-elsevier-list-published-in-october-202-2/)
+[October 21, 2022](https://giki.edu.pk/2022/10/21/)
+### [“Dr. Yousaf Ali, School of Management Sciences at the GIK Institute, and his student team of co-authors from the School of Management Sciences received Highly-Commended Paper Awards in the 2022 Emerald Literati Awards of Excellence.](https://giki.edu.pk/2022/10/21/dr-yousaf-ali-is-listed-among-the-worlds-top-2-of-scientists-and-researchers-in-the-field-of-management-and-economics-listed-in-the-stanford-university-elsevier-list-published-in-october-202-2/)
