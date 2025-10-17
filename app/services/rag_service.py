@@ -1,4 +1,4 @@
-import google.generativeai as genai
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from core.config import settings
@@ -9,8 +9,7 @@ logger = setup_logger(__name__)
 
 class RAGService:
     def __init__(self):
-        genai.configure(api_key=settings.GEMINI_API_KEY)
-        self.llm = genai(
+        self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash-lite",
             google_api_key=settings.GEMINI_API_KEY,
             temperature=settings.TEMPERATURE,

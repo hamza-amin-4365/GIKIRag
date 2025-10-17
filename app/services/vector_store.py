@@ -1,35 +1,32 @@
 from typing import List, Dict, Any
 import chromadb
 from chromadb.api.types import Documents, EmbeddingFunction, Embeddings
-import google.generativeai as genai
+from openai import OpenAI
 from core.config import settings
 from core.logger import setup_logger
 
 logger = setup_logger(__name__)
 
-class GeminiEmbeddingFunction(EmbeddingFunction):
-    def __init__(self, api_key: str):
-        genai.configure(api_key=api_key)
-        self.model = "models/embedding-001"
+class OpenAIEmbeddingFunction(EmbeddingFunction):
+    def __init__(self, api_key: str | None = None, model: str = "text-embedding-3-small"):
+        self.api_key = api_key or settings.OPENAI_API_KEY
+        self.model = model
+        self.client = OpenAI(api_key=self.api_key)
 
     def __call__(self, texts: Documents) -> Embeddings:
         if not texts:
             return []
         
-        embeddings = []
-        
-        for text in texts:
-            try:
-                response = genai.embed_content(
-                    model=self.model,
-                    content=text
-                )
-                embeddings.append(response["embedding"])
-            except Exception as e:
-                logger.error(f"Error embedding text: {e}")
-                embeddings.append([0.0] * 768)
-        
-        return embeddings
+        try:
+            response = self.client.embeddings.create(
+                model=self.model,
+                input=texts
+            )
+            return [item.embedding for item in response.data]
+        except Exception as e:
+            logger.error(f"Error embedding text with OpenAI: {e}")
+            # Fallback: zero vector same dimension (1536)
+            return [[0.0] * 1536 for _ in texts]
 
 class VectorStoreService:
     def __init__(self):
@@ -41,7 +38,7 @@ class VectorStoreService:
             )
             self.collection = self.client.get_collection(
                 name=settings.CHROMA_COLLECTION_NAME,
-                embedding_function=GeminiEmbeddingFunction()
+                embedding_function= OpenAIEmbeddingFunction()
             )
         except Exception as e:
             logger.error(f"Failed to initialize vector store: {e}")

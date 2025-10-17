@@ -5,10 +5,11 @@ class Settings(BaseSettings):
     # LLM Settings
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY")
     
+    OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY")
     # ChromaDB Settings
     CHROMA_DB_API_KEY: str = os.getenv("CHROMA_DB_API_KEY")
-    CHROMA_TENANT: str = os.getenv("CHROMA_CLOUD_TENANT")
-    CHROMA_DATABASE: str = os.getenv("CHROMA_CLOUD_DATABASE")
+    CHROMA_TENANT: str = os.getenv("CHROMA_TENANT", "3a4f58b1-4505-4361-b7da-9cec61ef8a3f")
+    CHROMA_DATABASE: str = os.getenv("CHROMA_DATABASE", "gikirag")
     CHROMA_COLLECTION_NAME: str = "giki_collection"
     
     # RAG Settings
