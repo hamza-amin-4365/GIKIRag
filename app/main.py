@@ -1,29 +1,14 @@
-# from fastapi import FastAPI
-# from fastapi.staticfiles import StaticFiles
-# from fastapi.templating import Jinja2Templates
-# from starlette.requests import Request
-
-# app = FastAPI()
-
-# app.mount("/static", StaticFiles(directory="static"), name="static")
-# templates = Jinja2Templates(directory="templates")
-
-# @app.get("/")
-# async def read_root(request: Request):
-#     return templates.TemplateResponse("index.html", {"request": request, "message": "Hello from FastAPI!"})
-
-# app/main.py
 from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from starlette.requests import Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Optional
-import logging
-from core.config import settings
+
 from core.logger import setup_logger
 from services.rag_service import RAGService
 
 logger = setup_logger(__name__)
-
 app = FastAPI(
     title="GIKI RAG API",
     description="Retrieval Augmented Generation API for GIK Institute Information",
@@ -56,8 +41,11 @@ class QueryResponse(BaseModel):
     status: str = "success"
 
 @app.get("/")
-def read_root():
-    return {"message": "GIKI RAG API is running"}
+async def read_root(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request, "message": "Hello from GIKIRAG_API!"})
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 @app.post("/query", response_model=QueryResponse)
 def query_endpoint(request: QueryRequest):

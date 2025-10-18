@@ -1,9 +1,13 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+import time
+import hashlib
 from core.config import settings
 from core.logger import setup_logger
 from services.vector_store import VectorStoreService
+
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 logger = setup_logger(__name__)
 
@@ -17,80 +21,80 @@ class RAGService:
         )
         self.vector_store = VectorStoreService()
         self.output_parser = StrOutputParser()
-        self._setup_prompts()
-    
-    def _setup_prompts(self):
-        self.rag_prompt = PromptTemplate(
+        self.cache = {}
+        self.cache_ttl = 600
+        self._setup_prompt()
+
+    def _setup_prompt(self):
+        self.prompt = PromptTemplate(
             input_variables=["context", "question"],
             template="""
-            You are an assistant for the GIK Institute (GIKI) website. Answer the question based on the context provided.
-            If the context doesn't contain the information needed, say you don't know based on the provided documents.
-            Be concise and accurate in your response.
-            
-            Context: {context}
-            
-            Question: {question}
-            
+            You are an expert assistant for the Ghulam Ishaq Khan Institute of Engineering Sciences, Pakistan (GIKI).
+            Use the retrieved context below to answer the user's question if it helps.
+            If the context is irrelevant or incomplete, rely on your own general knowledge.
+            Always be concise, factually accurate, and friendly.
+
+            Context:
+            {context}
+
+            Question:
+            {question}
+
             Answer:
             """
         )
-        
-        self.self_knowledge_prompt = PromptTemplate(
-            input_variables=["question"],
-            template="""
-            You are an assistant for the GIK Institute (GIKI) website. 
-            Determine if you can answer the following question using your general knowledge about GIKI.
-            Questions about GIKI programs, history, faculty, or general information are appropriate.
-            Do not answer questions about weather, unrelated topics, etc.
-            
-            Question: {question}
-            
-            Respond with "YES" if you can answer from your knowledge, "NO" if you need to search documents.
-            """
-        )
-    
-    def _can_answer_from_knowledge(self, question: str) -> bool:
-        try:
-            chain = self.self_knowledge_prompt | self.llm | self.output_parser
-            response = chain.invoke({"question": question})
-            return "YES" in response.upper()
-        except Exception as e:
-            logger.error(f"Error in knowledge check: {e}")
-            return False
-    
-    def _retrieve_context(self, question: str) -> str:
+
+    def _cache_key(self, question: str) -> str:
+        return hashlib.sha256(question.strip().lower().encode()).hexdigest()
+
+    def _get_cache(self, key: str):
+        if key in self.cache:
+            data, timestamp = self.cache[key]
+            if time.time() - timestamp < self.cache_ttl:
+                return data
+            else:
+                del self.cache[key]
+        return None
+
+    def _set_cache(self, key: str, value: str):
+        self.cache[key] = (value, time.time())
+
+    def _process_results(self, results):
+        if not results:
+            return "", 1.0
+        distances = [r["distance"] for r in results]
+        avg_distance = sum(distances) / len(distances)
+        context = "\n\n".join([r["content"] for r in results])
+        return context, avg_distance
+
+    def _get_context(self, question: str):
         try:
             results = self.vector_store.search(question, top_k=settings.TOP_K)
-            context_parts = []
-            for result in results:
-                if result['distance'] < settings.CONTEXT_THRESHOLD:
-                    context_parts.append(result['content'])
-            return "\n\n".join(context_parts)
+            context, avg_distance = self._process_results(results)
+            return context, avg_distance
         except Exception as e:
             logger.error(f"Error retrieving context: {e}")
-            return ""
-    
+            return "", 1.0
+
     def generate_response(self, question: str) -> str:
+        key = self._cache_key(question)
+        cached = self._get_cache(key)
+        if cached:
+            return cached
         try:
-            # Check if we can answer from general knowledge
-            if self._can_answer_from_knowledge(question):
-                # Use general LLM knowledge for GIKI-related questions
-                chain = self.rag_prompt | self.llm | self.output_parser
-                context = self._retrieve_context(question)
-                return chain.invoke({"context": context, "question": question})
+            context, avg_distance = self._get_context(question)
+            context = context or "No relevant context found."
+            prompt = self.prompt
+            chain = prompt | self.llm | self.output_parser
+            if avg_distance > 0.7:
+                logger.info("Low context confidence, relying more on model knowledge.")
+            elif avg_distance > 0.4:
+                logger.info("Partial context confidence, blending sources.")
             else:
-                # Check if question is relevant to GIKI
-                if any(keyword in question.lower() for keyword in 
-                      ['giki', 'gik institute', 'gandhara', 'computer science', 'engineering', 'admission', 'campus', 'student', 'faculty']):
-                    # Retrieve context and answer
-                    context = self._retrieve_context(question)
-                    if context:
-                        chain = self.rag_prompt | self.llm | self.output_parser
-                        return chain.invoke({"context": context, "question": question})
-                    else:
-                        return "I couldn't find relevant information in the documents to answer your question about GIKI."
-                else:
-                    return "This system is designed to answer questions specifically about GIK Institute. Please ask a question related to GIKI."
+                logger.info("High context confidence, using retrieval.")
+            answer = chain.invoke({"context": context, "question": question})
+            self._set_cache(key, answer)
+            return answer
         except Exception as e:
             logger.error(f"Error generating response: {e}")
-            return "An error occurred while processing your request. Please try again."
+            return "I encountered an issue generating your answer. Please try again."
