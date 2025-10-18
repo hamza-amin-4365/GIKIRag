@@ -5,8 +5,8 @@ from starlette.requests import Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from core.logger import setup_logger
-from services.rag_service import RAGService
+from app.core.logger import setup_logger
+from app.services.rag_service import RAGService
 
 logger = setup_logger(__name__)
 app = FastAPI(
@@ -44,8 +44,8 @@ class QueryResponse(BaseModel):
 async def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request, "message": "Hello from GIKIRAG_API!"})
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="templates")
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+templates = Jinja2Templates(directory="app/templates")
 
 @app.post("/query", response_model=QueryResponse)
 def query_endpoint(request: QueryRequest):

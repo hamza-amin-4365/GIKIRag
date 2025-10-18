@@ -1,8 +1,8 @@
 import time
 import hashlib
-from core.config import settings
-from core.logger import setup_logger
-from services.vector_store import VectorStoreService
+from app.core.config import settings
+from app.core.logger import setup_logger
+from app.services.vector_store import VectorStoreService
 
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser

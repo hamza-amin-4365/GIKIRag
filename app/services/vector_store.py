@@ -2,8 +2,8 @@ from typing import List, Dict, Any
 import chromadb
 from chromadb.api.types import Documents, EmbeddingFunction, Embeddings
 from openai import OpenAI
-from core.config import settings
-from core.logger import setup_logger
+from app.core.config import settings
+from app.core.logger import setup_logger
 
 logger = setup_logger(__name__)
 
