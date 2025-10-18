@@ -33,7 +33,8 @@ class RAGService:
             Use the retrieved context below to answer the user's question if it helps.
             If the context is irrelevant or incomplete, rely on your own general knowledge.
             Always be concise, factually accurate, and friendly.
-
+            Do not answer with long paragraphs, be breif and consistent with your answers.
+            
             Context:
             {context}
 
