@@ -34,11 +34,15 @@ except Exception as e:
 
 class QueryRequest(BaseModel):
     question: str
+    session_id: str  # New: Add session ID for maintaining history
+    history: list = []  # New: Add history to request
 
 class QueryResponse(BaseModel):
     question: str
     answer: str
     status: str = "success"
+    session_id: str
+    history: list = []  # New: Include history in response
 
 @app.get("/")
 async def read_root(request: Request):
@@ -50,10 +54,16 @@ templates = Jinja2Templates(directory="app/templates")
 @app.post("/query", response_model=QueryResponse)
 def query_endpoint(request: QueryRequest):
     try:
-        answer = rag_service.generate_response(request.question)
+        answer, updated_history = rag_service.generate_response_with_history(
+            request.question, 
+            request.session_id,
+            request.history
+        )
         return QueryResponse(
             question=request.question,
-            answer=answer
+            answer=answer,
+            session_id=request.session_id,
+            history=updated_history
         )
     except Exception as e:
         logger.error(f"Error processing query: {e}")

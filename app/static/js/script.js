@@ -1,5 +1,6 @@
-// Remove audio functionality as it's not standard for a chat interface
-// var audio = new Audio('assets/sentmessage.mp3'); // Removed
+// Add session management
+let sessionId = 'session-' + Date.now(); // Generate unique session ID
+let chatHistory = []; // Maintain chat history
 
 // GIKI-specific help text
 const gikiHelpText = "<span class='sk'>Ask me about GIK Institute! I can provide information on:<br><span class='bold'>'Admissions'</span> - Admission procedures and requirements<br><span class='bold'>'Programs'</span> - Available academic programs (e.g., Computer Science, Engineering)<br><span class='bold'>'Faculty'</span> - Information about faculty members<br><span class='bold'>'Campus'</span> - Campus life and facilities<br><span class='bold'>'News'</span> - Latest news and events<br><span class='bold'>'Alumni'</span> - Alumni Association information<br><span class='bold'>'clear'</span> - to clear conversation<br>Just type your question!";
@@ -69,13 +70,17 @@ function sendMsg() {
     document.getElementById("listUL").appendChild(typingLI);
     scrollToBottom();
 
-    // Call backend API
+    // Call backend API with session ID and history
     fetch('/query', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ question: inputText }),
+        body: JSON.stringify({ 
+            question: inputText,
+            session_id: sessionId,
+            history: chatHistory  // Send current history
+        }),
     })
     .then(response => response.json())
     .then(data => {
@@ -84,6 +89,9 @@ function sendMsg() {
         if (typingElement) {
             typingElement.remove();
         }
+
+        // Update chat history with the response
+        chatHistory = data.history; // Update with history from the response
 
         // Add bot response to UI
         const botLI = document.createElement("li");
@@ -148,5 +156,8 @@ function sendTextMessage(textToSend) {
 
 function clearChat() {
     document.getElementById("listUL").innerHTML = "";
+    // Reset session and history
+    sessionId = 'session-' + Date.now(); // Generate new session ID
+    chatHistory = []; // Clear history
     startFunction(); // Re-add the initial welcome message
 }
